@@ -5,7 +5,6 @@ import { authenticate } from '../middlewares/authenticate.js';
 import {
   addArticleToSavedController,
   deleteArticleFromSavedController,
-  getAuthorsController,
   getSavedArticlesController,
   getUserArticlesController,
   getUserByIdController,
