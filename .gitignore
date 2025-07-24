@@ -2,6 +2,7 @@
 
 .env
 
+pull-requests.txt
 .vscode
 .DS_Store
 .idea
