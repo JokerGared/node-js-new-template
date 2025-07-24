@@ -7,3 +7,5 @@ export const getUserArticles = async () => {};
 export const addArticleToSaved = async () => {};
 
 export const deleteArticleFromSaved = async () => {};
+
+export const getAuthors = async () => {};

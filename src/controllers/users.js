@@ -1,6 +1,7 @@
 import {
   addArticleToSaved,
   deleteArticleFromSaved,
+  getAuthors,
   getSavedArticles,
   getUserArticles,
   getUserById,
@@ -24,4 +25,8 @@ export const addArticleToSavedController = async () => {
 
 export const deleteArticleFromSavedController = async () => {
   await deleteArticleFromSaved();
+};
+
+export const getAuthorsController = async () => {
+  await getAuthors();
 };
