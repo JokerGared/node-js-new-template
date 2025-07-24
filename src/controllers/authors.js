@@ -1,22 +1,21 @@
 import {
   addArticleToSaved,
   deleteArticleFromSaved,
-  getAuthors,
+  getAuthorArticles,
+  getAuthorById,
   getSavedArticles,
-  getUserArticles,
-  getUserById,
-} from '../services/users';
+} from '../services/authors';
 
-export const getUserByIdController = async () => {
-  await getUserById();
+export const getAuthorByIdController = async () => {
+  await getAuthorById();
 };
 
 export const getSavedArticlesController = async () => {
   await getSavedArticles();
 };
 
-export const getUserArticlesController = async () => {
-  await getUserArticles();
+export const getAuthorArticlesController = async () => {
+  await getAuthorArticles();
 };
 
 export const addArticleToSavedController = async () => {
@@ -25,8 +24,4 @@ export const addArticleToSavedController = async () => {
 
 export const deleteArticleFromSavedController = async () => {
   await deleteArticleFromSaved();
-};
-
-export const getAuthorsController = async () => {
-  await getAuthors();
 };

@@ -1,11 +1,9 @@
-export const getUserById = async () => {};
+export const getAuthorById = async () => {};
 
 export const getSavedArticles = async () => {};
 
-export const getUserArticles = async () => {};
+export const getAuthorArticles = async () => {};
 
 export const addArticleToSaved = async () => {};
 
 export const deleteArticleFromSaved = async () => {};
-
-export const getAuthors = async () => {};

@@ -1,5 +1,5 @@
 {
-  "name": "nodejs-hw-mongodb",
+  "name": "project-team-geeks",
   "version": "1.0.0",
   "type": "module",
   "main": "index.js",
@@ -16,7 +16,7 @@
     "url": "git+https://github.com/JokerGared/nodejs-hw-mongodb.git"
   },
   "keywords": [],
-  "author": "Oleh Cherkasov <therkasoa@gmail.com>",
+  "author": "Geeks team",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/JokerGared/nodejs-hw-mongodb/issues"

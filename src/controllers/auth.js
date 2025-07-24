@@ -3,8 +3,6 @@ import {
   logoutUser,
   refreshSession,
   registerUser,
-  requestReset,
-  resetPassword,
 } from '../services/auth';
 
 export const registerUserController = async () => {
@@ -21,12 +19,4 @@ export const logoutUserController = async () => {
 
 export const refreshSessionController = async () => {
   await refreshSession();
-};
-
-export const requestResetController = async () => {
-  await requestReset();
-};
-
-export const resetPasswordController = async () => {
-  await resetPassword();
 };

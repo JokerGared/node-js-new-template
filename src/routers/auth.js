@@ -5,14 +5,11 @@ import {
   logoutUserController,
   refreshUserSessionController,
   registerUserController,
-  requestResetEmailController,
-  resetPasswordController,
 } from '../controllers/auth';
-import { loginUserSchema, registerUserSchema } from '../validation/usersSchema';
 import {
-  requestResetEmailSchema,
-  resetPasswordSchema,
-} from '../validation/auth';
+  loginUserSchema,
+  registerUserSchema,
+} from '../validation/authorsSchema';
 
 const authPage = Router();
 
@@ -31,17 +28,5 @@ authPage.post(
 authPage.post('/auth/logout', logoutUserController);
 
 authPage.post('/auth/refresh', refreshUserSessionController);
-
-authPage.post(
-  '/auth/send-reset-email',
-  validateBody(requestResetEmailSchema),
-  requestResetEmailController,
-);
-
-authPage.post(
-  '/auth/reset-pwd',
-  validateBody(resetPasswordSchema),
-  resetPasswordController,
-);
 
 export default authPage;

@@ -1,16 +1,18 @@
 openapi: 3.1.0
 info:
   version: 1.0.0
-  title: Fullstack-Geeks's team app
+  title: Geeks team app
   license:
     name: Apache 2.0
     url: http://www.apache.org/licenses/LICENSE-2.0.html
-  description: This is a documentation of Fullstack-Geeks's team app
+  description: This is a documentation of Geeks team app
 tags:
   - name: Articles
     description: Operations about articles.
   - name: Auth
     description: Auth operations.
+  - name: Authors
+    description: Operations about authors.
 servers:
   - url: http://localhost:3000
   # - url: https://nodejs-hw-mongodb-s5ly.onrender.com
