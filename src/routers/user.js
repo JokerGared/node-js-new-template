@@ -41,6 +41,4 @@ userRouter.delete(
   ctrlWrapper(deleteArticleFromSavedController),
 );
 
-userRouter.get('/users/authors', ctrlWrapper(getAuthorsController));
-
 export default userRouter;
